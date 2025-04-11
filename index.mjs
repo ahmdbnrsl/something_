@@ -1,17 +1,8 @@
-function _log(...args) {
-    console.info(...args);
-}
-function _buff(str) {
-    return Buffer.from(str, "base64").toString("utf-8");
-}
-function _chr(arr) {
-    return String.fromCharCode(...arr);
-}
-
-/**
- * In Programming we don't say I Love You
- * We say :
- */
+import {
+    _log,
+    _buff,
+    _chr
+} from "https://raw.githubusercontent.com/ahmdbnrsl/something_/refs/heads/main/_func.js";
 
 _log(
     _buff(
