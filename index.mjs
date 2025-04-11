@@ -1,4 +1,8 @@
-import { _write_file, _buff, _chr } from "./_func.js"; //"https://raw.githubusercontent.com/ahmdbnrsl/something_/refs/heads/main/_func.js";
+import {
+    _write_file,
+    _buff,
+    _chr
+} from "https://raw.githubusercontent.com/ahmdbnrsl/something_/refs/heads/main/_func.js";
 
 _write_file(
     _buff(
