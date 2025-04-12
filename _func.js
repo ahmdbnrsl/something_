@@ -1,4 +1,4 @@
-import { writeFileSync } from "fs";
+import { writeFileSync } from "node:fs";
 
 function _write_file(str) {
     writeFileSync("untukmu.txt", Buffer.from(str, "utf-8"));
