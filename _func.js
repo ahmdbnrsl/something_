@@ -1,5 +1,3 @@
-
-
 function _write_file(str) {
     Deno.writeTextFileSync("untukmu.txt", str);
 }
